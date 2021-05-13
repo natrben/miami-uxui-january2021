@@ -1,0 +1,27 @@
+
+div{border: 1px blue solid;
+
+}
+
+section {
+    background-color: lightgray;
+    padding: 80px 40px;
+}
+
+
+img{
+    /* width: 100%; */
+
+}
+
+.img-card {
+    width: 100%;
+}
+
+
+#hero {
+    background-image: url('../Img/image_3.jpg');
+    background-size: cover;
+    height: 60vh;
+    text-align: center;
+}
