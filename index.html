@@ -9,16 +9,25 @@
     <meta name=“keywords” content=“UXUI, Ironhack, Design Principles”>
     <meta name=“author” content=“Juno Jo”>
     <title>Juno’s Page</title>
+   Style CSS
     <link rel="stylesheet" href="css/style.css" type="text/css">
-    <style type="text/css">
+   
+   <style type="text/css">
         /* div{border: 1px red solid;
          }*/
     </style>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2&display=swap" rel="stylesheet">
+    <!--Icons-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
 </head>
 
 <body>
     <!-- Header - start -->
-    <header>
+    <header class="container">
+
         <img src="https://www.ironhack.com/assets/icons/ironhack_logos/logo.svg" alt=“NatLogo”>
 
         <form action="#">
@@ -27,10 +36,12 @@
         </form>
        
         <nav>
-            About
-            Products
-            Testimonials
-            Contact
+            <a href="#">About</a>
+            <a href="#">Product</a> 
+            <a href="#">Testimonials</a> 
+            <a href="#Contact">Contact</a> 
+            <a href="#" class="cv button"> <i class="ri-file-download-line ri-1x"></i></a>
+
         </nav>
     </header>
     <!-- Header - end -->
@@ -39,71 +50,80 @@
     <section id="hero">
         <h1>Heading 1</h1>
         <h3>Heading 3</h3>
-        Call to Action
+        <a href="a" class="cta-button"><i class="ri-shopping-cart-2-fill ri-lg"></i> Call to Action</a>
     </section>
     <!-- Hero - end -->
     <!-- Articles Cards - start  -->
-    <section>
+    <section id="articles" class="container">
         <!-- Card 1 - start -->
         <div class="Card">
-            <img src="img/avatar_01.png" alt="" class="img-card">
-            <h3>heading 3</h3>
+            <img src="img/image_1.jpg" alt="" class="img-card">
+            <h5>heading </h5>
             <p>paragraph</p>
-            <img src=“img/avatar_01.png” alt=“avatar” class="img-card">
+            <div class="container author-card">
+            <img src="img/avatar_01.png" alt="avatar" class="author-photo">
             <p>author name</p>
+            </div>
         </div>
         <!-- Card 1 - end -->
       
         <!-- Card 2 - start -->
         <div class="Card">
-            <img src=“img/image_2.jpg”” alt=“” class="img-card">
-            <h3>heading 3</h3>
+            <img src="img/image_2.jpg" alt=“” class="img-card">
+            <h5>heading 3</h5>
             <p>paragraph</p>
-            <img src=“img/avatar_02.png” alt=“avatar” class="img-card">
+            <div class="container author-card">
+            <img src="img/avatar_02.png" alt="avatar" class="author-photo">
             <p>author name</p>
+            </div>
         </div>
         <!-- Card 2 - end -->
 
 
         <!-- Card 3 - start -->
         <div class="Card">
-            <img src= “img/image_03.jpg”” alt=“” class="img-card">
-            <h3>heading 3</h3>
+            <img src= "img/Image_3.jpg" alt=“” class="img-card">
+            <h5>heading 3</h5>
             <p>paragraph</p>
-            <img src=“Img/avatar_03.png” alt=“avatar” class="img-card">
+            <div class="container author-card">
+            <img src="img/avatar_03.png" alt="avatar" class="author-photo">
             <p>author name</p>
+            </div>
         </div>
         <!-- Card 3 - end -->
 
 
     </section>
     <!-- Articles Cards - end -->
+    
     <!-- Video - start -->
-    <section>
+    <section id="video">
+        This one works <iframe width="560" height="315" src="https://www.youtube.com/embed/XodAVdadsic" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <video>
             <source src=“” type="video/mp4">
         </video>
     </section>
     <!-- Video - end -->
+    
     <!-- Features - start -->
     <section>
         <!-- Feature 1 - start -->
         <div>
-            <img src="img/image_2.jpg" alt="">
+            <img src="img/avatar_05.png" alt="">
             <h2>title</h2>
             <p>description</p>
         </div>
         <!-- Feature 1 - end -->
         <!-- Feature 2 - start -->
         <div>
-            <img src="img/image_1.jpg" alt="">
+            <img src="img/avatar_06.png" alt="">
             <h2>title</h2>
             <p>description</p>
         </div>
         <!-- Feature 2 - end -->
         <!-- Feature 3 - start -->
         <div>
-            <img src="img/Image_3.jpg" alt="">
+            <img src="img/avatar_07.png" alt="">
             <h2>title</h2>
             <p>description</p>
         </div>
@@ -111,7 +131,7 @@
     </section>
     <!-- Features - end -->
     <!-- Contact - start -->
-    <section>
+    <section id="Contact">
         <div>
             <h3>Contact Us</h3>
             <p>Address</p>
@@ -144,17 +164,22 @@
     <footer>
         <!-- Menu - start -->
         <div>
-            About Us
-            Products
-            Testimonials
+           <a href="#">About Us</a>
+           <a href="#">Products</a> 
+            <a href="#">Testimonials</a> 
+            <a href="#">Contact</a> 
         </div>
         <!-- Menu - end -->
+       
+       
         <!-- Social Media - start -->
         <div>
         <h4>Social Media</h4>
-            Facebook
-            Instagram
-            Twitter
+        <div class="icons">
+        <a href="https://www.facebook.com/Nathalie"><i class="ri-facebook-box-line"></i></a>
+        <a href="https://www.instagram.com/Pewpewpewk"><i class="ri-instagram-line"></i></a>
+        <a href="https://www.twitter.com/Nathalie"><i class="ri-twitter-line"></i></a>
+        <a href="https://www.medium.com/Nathalie"><i class="ri-medium-line"></i></a>
         </div>
         <!-- Social Media - end -->
     </footer>

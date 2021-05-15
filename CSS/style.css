@@ -1,4 +1,44 @@
 
+*{
+    font-family: 'Exo 2', sans-serif ;
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'krona one'sans-serif;
+}
+
+h1{
+    font-family: 'krona one', sans-serif;
+     font-size: 4.209rem;
+}
+
+h2{
+    font-family: 'Krona One', sans-serif;
+    font-size: 3.052rem;
+}
+h3{
+    font-family: 'Krona One', sans-serif;
+    font-size: 2.441rem;
+}
+
+h4{
+    font-family: 'Krona One', sans-serif;
+    font-size: 1.953rem;
+}
+
+h5{
+    font-family: 'Krona One', sans-serif;
+    font-size: 1.563rem;
+}
+
+h6{
+    font-family: 'Krona One', sans-serif;
+    font-size: 1.25rem;
+}
+
+
+
 div{border: 1px blue solid;
 
 }
@@ -9,18 +49,109 @@ section {
 }
 
 
-img{
-    /* width: 100%; */
+header{
+    justify-content: space-around;
+    align-items: center;
+    padding: 36px;
+
 
 }
 
+
+
+/*LINKS */
+a:link,a:visited {
+    text-decoration: none;
+    color: lightskyblue;
+    padding: 10px;
+}
+a:hover {
+    color:midnightblue
+}
+    
+a:active {
+    color: olive;
+}
+
+/* CTA Button */
+.cta-button:link, a.cta-button:visited {
+    background-color:orangered;
+    border-radius: 8px;
+    color:whitesmoke
+}
+
+a.cta-button:hover{
+    background-color: tomato;
+}
+
+a.cta-button:active{
+    background-color: darkred;
+}
+
+/* CV Download Button */
+
+.cv-button:link, a.cv-button:visited {
+    background-color:orangered;
+    border-radius: 8px;
+    color:whitesmoke;
+    padding: 8px 16px
+
+}
+    a.cv-button:hover{
+    background-color: tomato;
+    }
+    
+    a.cv-button:active{
+        background-color: darkred;
+    }
+
+img{
+    /* width: 100%; */
+}
+
+.card{
+    width: 250px;
+} 
 .img-card {
     width: 100%;
 }
 
+.img-feat {
+    width:80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.icons{
+    font-size:24 ;
+}
+
+.container{
+    display: flex;
+}
+
+.author-card{
+    align-items: center;
+}
+
+.author-photo{
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
+}
 
 #hero {
     background-image: url('../Img/image_3.jpg');
+    background-size: cover;
+    height: 60vh;
+    text-align: center;
+
+    background-image: url('../Img/image_2.jpg');
+    background-size: cover;
+    height: 60vh;
+    text-align: center;
+
+    background-image: url('../Img/image_1.jpg');
     background-size: cover;
     height: 60vh;
     text-align: center;
